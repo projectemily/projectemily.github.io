@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-UK">
   <head>
-    <title>Project Emily: Profile</title>
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mystyle.css"
 
   </head>
@@ -48,20 +46,25 @@
     </div>
   </div>
 
+
 <form action="profile_page.php">
   <fieldset>
     <legend>Personal information:</legend>
-    First name:<br>
+    <b>First name:</b><br>
       <input type="text" name="firstname" placeholder=" ">
     <br>
-    Last name:<br>
+    <b>Last name:</b><br>
       <input type="text" name="lastname" placeholder=" ">
-    <br>
-    Gender:<br>
+    <br><br>
+    <b>Gender:</b><br>
       <input type="radio" name="gender" value="male" checked> Male<br>
       <input type="radio" name="gender" value="female"> Female<br>
       <input type="radio" name="gender" value="other"> Other
-    Faculty:
+    <br><br>
+    <b>E-mail:</b>
+      <input type="email" name="email">
+    <br><br>
+    <b>Faculty:</b>
      <select>
         <option value="Arts and Humanities">Arts and Humanities</option>
         <option value="Engineering">Engineering</option>
@@ -69,7 +72,8 @@
         <option value="Science">Science</option>
         <option value="Social Science">Social Science</option>
      </select>
-   Other Criteria:<br>
+    <br><br>
+   <b>Other Criteria:</b><br>
      <input type="radio" name="test" value="test"> Test<br>
 
 

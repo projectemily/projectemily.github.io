@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-UK">
   <head>
-    <!-- Bootstrap core CSS -->
     <title>Project Emily: Profile</title>
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css"
+
   </head>
 <body>
 
@@ -52,15 +52,26 @@
   <fieldset>
     <legend>Personal information:</legend>
     First name:<br>
-    <input type="text" name="firstname" placeholder=" ">
+      <input type="text" name="firstname" placeholder=" ">
     <br>
     Last name:<br>
-    <input type="text" name="lastname" placeholder=" ">
+      <input type="text" name="lastname" placeholder=" ">
     <br>
-    <p>Gender</p>
-    <input type="radio" name="gender" value="male" checked> Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
-    <input type="radio" name="gender" value="other"> Other
+    Gender:<br>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other
+    Faculty:
+     <select>
+        <option value="Arts and Humanities">Arts and Humanities</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Medicine, Dentistry, and Health">Medicine, Dentistry, and Health</option>
+        <option value="Science">Science</option>
+        <option value="Social Science">Social Science</option>
+     </select>
+   Other Criteria:<br>
+     <input type="radio" name="test" value="test"> Test<br>
+
 
   <br><br>
   <input type="submit" value="Submit">
